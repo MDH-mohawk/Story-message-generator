@@ -24,3 +24,9 @@ const action_choose = ()=>{
 const subject_choose = ()=>{
     return subject[randomize(subject.length)];
 }
+
+const combined = () =>{
+    return char() + " will " + action_choose() + " the " + subject_choose() + " in " + place_choose();
+}
+
+console.log(combined());
