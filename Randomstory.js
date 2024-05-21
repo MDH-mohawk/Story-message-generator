@@ -20,3 +20,7 @@ const place_choose = () =>{
 const action_choose = ()=>{
     return action[randomize(action.length)];
 }
+
+const subject_choose = ()=>{
+    return subject[randomize(subject.length)];
+}
