@@ -5,6 +5,7 @@ const place = ["South Africa","L.A.","The Bedroom","The Studio","The tennis lane
 const action = ["paint","hurt","knock","play","make","hear"," climb","jump"];
 const subject = ["painting","wall","tower","ladies room"," microphone"];
 
+
 //The function below creates a random number based on the value of "num" variable
 const randomize = num => {
 let rand = Math.floor(Math.random()*num);
